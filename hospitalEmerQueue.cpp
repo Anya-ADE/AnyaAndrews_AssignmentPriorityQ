@@ -40,7 +40,7 @@ int main (){
     
      while (!patients.empty()) {
         Patient currentPatient = patients.top();
-        std::cout << currentPatient.name << " (Priority: " << currentPatient.priority << ")\n";
+        cout << currentPatient.name << " (Priority: " << currentPatient.priority << ")\n";
         patients.pop();
     }
 
